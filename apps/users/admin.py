@@ -34,7 +34,7 @@ class UserAdmin(BaseUserAdmin):
                 "fields": (
                     "is_active",
                     "is_staff",
-                    "Is_superuser",
+                    "is_superuser",
                     "groups",
                     "user_permissions",
                 )
@@ -45,7 +45,7 @@ class UserAdmin(BaseUserAdmin):
             {
                 "fields": (
                     "last_login",
-                    "date_joined,"
+                    "date_joined",
                 )
             },
         ),
